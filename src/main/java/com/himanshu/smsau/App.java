@@ -29,9 +29,9 @@ class mess{
 		try{
 		System.out.println(s);
 		 String ACCOUNT_SID =
-                 "AC7120e1d19db04d4c1d57a81c36be0dc5";
+                 "";
            final String AUTH_TOKEN =
-                 "29f8fe37327c85ce5c8e354677f6628e";
+                 "";
          Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
          Message message = Message
